@@ -48,7 +48,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
+  title: "Mi especialidad",
   subTitle: "DESARROLLADOR BACKEND OBSESIONADO CON ARMAR ARQUITECTURAS SÓLIDAS Y APIs QUE NO FALLEN",
   skills: [
     emoji(
@@ -214,8 +214,8 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Grandes Proyectos",
+  subtitle: "Algunas empresas que he ayudado a crear su tecnología",
   projects: [
     {
       image: require("./assets/images/tulipantrendyLogo.jpg"),
@@ -240,9 +240,9 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Logros y certificaciones 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done!",
+    "¡Logros, certificaciones y algunas cosas interesantes que he hecho!",
 
   achievementsCards: [
     {
@@ -293,22 +293,52 @@ const achievementSection = {
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Principales Repositorios",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "Algunos de los proyectos más relevantes que he desarrollado. Incluyen backends robustos, integración con APIs, y despliegues reales.",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://github.com/YadhirIsvan/coffe_shop.git",
+      title: "API RESTful con Django de una cafe",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Backend robusto hecho con Django y Django REST Framework, autenticación JWT, y PostgreSQL. Ideal para apps móviles y web."
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://github.com/YadhirIsvan/django_inmuebles",
+      title: "Gestión de Inmuebles con Django",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "Plataforma backend desarrollada con Django para administrar propiedades inmobiliarias: alta de inmuebles, usuarios, ubicaciones, precios y más."
+    },
+    {
+      url: "https://github.com/YadhirIsvan/jkl.git",
+      title: "API RESTful con Django de EduSmart",
+      description:
+        "Backend de una plataforma educativa, creada con django, autenticación JWT"
+    },
+    {
+      url: "https://github.com/YadhirPallares/acuario-mqtt", // Tu repo de IoT
+      title: "Sistema IoT para Acuarios con MQTT",
+      description:
+        "Proyecto que monitorea temperatura y parámetros de peceras en tiempo real. El backend recibe datos desde sensores a través de MQTT y los muestra al dueño del acuario en una app conectada."
+    },
+    {
+      url: "https://github.com/YadhirIsvan/helix-eye.git",
+      title: "Helix-eye",
+      description:
+        "Platforma crada con react "
+    },
+    {
+      url: "https://github.com/YadhirIsvan/trello-app.git", // Otro ejemplo
+      title: "Frontend con Angular de Trello",
+      description:
+        "Aplicación web dinámica desarrollada con Angular que consume una API propia. Gestión de rutinas y usuarios."
+    },
+    {
+      url: "https://github.com/YadhirIsvan/visionin.git",
+      title: "VisionInsight (ML + Streamlit)",
+      description:
+        "App de análisis de datos médicos con Python y Streamlit, que predice la probabilidad de diabetes basada en variables clínicas."  
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -330,7 +360,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -343,7 +373,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -356,11 +386,11 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contactame ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "¿Tienes un proyecto en mente o necesitas un backend sólido y escalable? Estoy disponible para colaboraciones, freelancing o simplemente platicar sobre ideas innovadoras..",
+  number: "+52 2711133514",
+  email_address: "yadhirisvan11@gmail.com"
 };
 
 // Twitter Section
