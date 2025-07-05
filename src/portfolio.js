@@ -26,7 +26,7 @@ const greeting = {
     "Desarrollador backend apasionado 🚀 con experiencia en la creación de APIs REST robustas usando Django, Spring Boot y Node.js. Enfocado en soluciones escalables, bases de datos relacionales como MySQL y PostgreSQL, e integración con servicios en la nube como AWS. Actualmente estudiante de Ingeniería de Software, combinando formación académica con proyectos reales y visión de crecimiento profesional constante."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/157hkRHzJdSjfuOTyvWnZFmbketipmg4q/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
