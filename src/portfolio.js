@@ -49,7 +49,8 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Mi especialidad",
-  subTitle: "DESARROLLADOR BACKEND OBSESIONADO CON ARMAR ARQUITECTURAS SÓLIDAS Y APIs QUE NO FALLEN",
+  subTitle:
+    "DESARROLLADOR BACKEND OBSESIONADO CON ARMAR ARQUITECTURAS SÓLIDAS Y APIs QUE NO FALLEN",
   skills: [
     emoji(
       "⚡ Desarrollo de APIs REST seguras, documentadas y eficientes para apps web y móviles"
@@ -58,75 +59,74 @@ const skillsSection = {
     emoji(
       "⚡ Integración de servicios cloud (AWS, Firebase) y bases de datos relacionales"
     ),
+    emoji("⚡ Automatización, testing y prácticas DevOps en mis proyectos"),
+    emoji("⚡ Mantenimiento y despliegue de servidores en entornos Linux"),
     emoji(
-      "⚡ Automatización, testing y prácticas DevOps en mis proyectos"),
-    emoji(
-      "⚡ Mantenimiento y despliegue de servidores en entornos Linux"),
-      emoji(
-        "⚡ Desarrollo de interfaces web funcionales con React, Angular y JavaScript")
+      "⚡ Desarrollo de interfaces web funcionales con React, Angular y JavaScript"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-softwareSkills: [
-  {
-    skillName: "Node.js",
-    fontAwesomeClassname: "fab fa-node-js"
-  },
-  {
-    skillName: "Django",
-    fontAwesomeClassname: "fas fa-leaf" // No hay ícono oficial de Django, este puede ser simbólico
-  },
-  {
-    skillName: "React",
-    fontAwesomeClassname: "fab fa-react"
-  },
-  {
-    skillName: "Angular",
-    fontAwesomeClassname: "fab fa-angular"
-  },
-  {
-    skillName: "Flutter",
-    fontAwesomeClassname: "fas fa-mobile-alt"
-  },
-  {
-    skillName: "Git",
-    fontAwesomeClassname: "fab fa-git-alt"
-  },
-  {
-    skillName: "Docker",
-    fontAwesomeClassname: "fab fa-docker"
-  },
-  {
-    skillName: "AWS",
-    fontAwesomeClassname: "fab fa-aws"
-  },
-  {
-    skillName: "MongoDB",
-    fontAwesomeClassname: "fas fa-leaf" // Mismo ícono de Django (puede compartirse)
-  },
-  {
-    skillName: "MySQL",
-    fontAwesomeClassname: "fas fa-database"
-  },
-  {
-    skillName: "Puppeteer",
-    fontAwesomeClassname: "fas fa-robot" // Representativo
-  },
-  {
-    skillName: "JavaScript",
-    fontAwesomeClassname: "fab fa-js"
-  },
-  {
-    skillName: "HTML5",
-    fontAwesomeClassname: "fab fa-html5"
-  },
-  {
-    skillName: "CSS3",
-    fontAwesomeClassname: "fab fa-css3-alt"
-  }
-],
+  softwareSkills: [
+    {
+      skillName: "Node.js",
+      fontAwesomeClassname: "fab fa-node-js"
+    },
+    {
+      skillName: "Django",
+      fontAwesomeClassname: "fas fa-leaf" // No hay ícono oficial de Django, este puede ser simbólico
+    },
+    {
+      skillName: "React",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "Angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },
+    {
+      skillName: "Flutter",
+      fontAwesomeClassname: "fas fa-mobile-alt"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "Docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "AWS",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "MongoDB",
+      fontAwesomeClassname: "fas fa-leaf" // Mismo ícono de Django (puede compartirse)
+    },
+    {
+      skillName: "MySQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Puppeteer",
+      fontAwesomeClassname: "fas fa-robot" // Representativo
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "HTML5",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "CSS3",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    }
+  ],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -143,7 +143,7 @@ const educationInfo = {
       desc: "Contribuí en el desarrollo de soluciones backend para un proyecto de investigación universitaria sobre sistemas distribuidos y eficiencia en APIs REST. Uno de los módulos fue implementado en un sistema real y reconocido por docentes.",
       descBullets: [
         "Optimizamos respuestas REST hasta un 40% con cacheo inteligente y consultas SQL bien estructuradas",
-      "Colaboré en la documentación técnica y presentación del proyecto ante la comunidad académica"
+        "Colaboré en la documentación técnica y presentación del proyecto ante la comunidad académica"
       ]
     }
   ]
@@ -172,36 +172,36 @@ const techStack = {
 
 // Work experience section
 
-  const workExperiences = {
-    display: true,
-    experience: [
-      {
-        role: "Fundador y Desarrollador Backend",
-        company: "PallaresCorp",
-        companylogo: require("./assets/images/pallarescorpLogo.jpg"),
-        date: "2023 – Actualidad",
-        desc: "Inicié una empresa enfocada en el desarrollo de un sistema e-commerce adaptable a micro y pequeñas empresas, combinando tecnología con consultoría personalizada y marketing digital.",
-        descBullets: [
-          "Diseñé y desarrollé el backend del software usando Django y PostgreSQL",
-          "Implementé panel de administración para control de productos, ventas y clientes",
-          "Ofrecimos campañas de marketing y acompañamiento a los negocios que adquirieron el sistema",
-          "Lideré la estrategia comercial y técnica del proyecto"
-        ]
-      },
-      {
-        role: "Consultor en Investigación de Marca",
-        company: "Gimnasio Oxygen (proyecto de análisis)",
-        companylogo: require("./assets/images/oxygenLogo.jpg"),
-        date: "2023",
-        desc: "Realicé un análisis de marca para el Gimnasio Oxygen como parte de una propuesta de transformación digital, en colaboración directa con la gerente del negocio.",
-        descBullets: [
-          "Entrevista a profundidad con la gerencia para entender su posicionamiento de marca",
-          "Análisis de competencia, presencia digital y oportunidad de expansión",
-          "Propuesta de estrategia digital (no implementada por decisión interna)"
-        ]
-      }
-    ]
-  };
+const workExperiences = {
+  display: true,
+  experience: [
+    {
+      role: "Fundador y Desarrollador Backend",
+      company: "PallaresCorp",
+      companylogo: require("./assets/images/pallarescorpLogo.jpg"),
+      date: "2023 – Actualidad",
+      desc: "Inicié una empresa enfocada en el desarrollo de un sistema e-commerce adaptable a micro y pequeñas empresas, combinando tecnología con consultoría personalizada y marketing digital.",
+      descBullets: [
+        "Diseñé y desarrollé el backend del software usando Django y PostgreSQL",
+        "Implementé panel de administración para control de productos, ventas y clientes",
+        "Ofrecimos campañas de marketing y acompañamiento a los negocios que adquirieron el sistema",
+        "Lideré la estrategia comercial y técnica del proyecto"
+      ]
+    },
+    {
+      role: "Consultor en Investigación de Marca",
+      company: "Gimnasio Oxygen (proyecto de análisis)",
+      companylogo: require("./assets/images/oxygenLogo.jpg"),
+      date: "2023",
+      desc: "Realicé un análisis de marca para el Gimnasio Oxygen como parte de una propuesta de transformación digital, en colaboración directa con la gerente del negocio.",
+      descBullets: [
+        "Entrevista a profundidad con la gerencia para entender su posicionamiento de marca",
+        "Análisis de competencia, presencia digital y oportunidad de expansión",
+        "Propuesta de estrategia digital (no implementada por decisión interna)"
+      ]
+    }
+  ]
+};
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -220,7 +220,8 @@ const bigProjects = {
     {
       image: require("./assets/images/tulipantrendyLogo.jpg"),
       projectName: "Tulipán Trendy",
-      projectDesc: "Desarrollé su ecommerce personalizado para venta de ropa, conectando catálogo, métodos de pago y diseño responsivo. Fue el primer proyecto comercial de PallaresCorp.",
+      projectDesc:
+        "Desarrollé su ecommerce personalizado para venta de ropa, conectando catálogo, métodos de pago y diseño responsivo. Fue el primer proyecto comercial de PallaresCorp.",
       footerLink: [
         {
           name: "Visitar sitio (demo o link real)",
@@ -284,11 +285,9 @@ const achievementSection = {
         }
       ]
     }
-    
   ],
   display: true
 };
-
 
 // Blogs Section
 
@@ -325,8 +324,7 @@ const blogSection = {
     {
       url: "https://github.com/YadhirIsvan/helix-eye.git",
       title: "Helix-eye",
-      description:
-        "Platforma crada con react "
+      description: "Platforma crada con react "
     },
     {
       url: "https://github.com/YadhirIsvan/trello-app.git", // Otro ejemplo
@@ -338,7 +336,7 @@ const blogSection = {
       url: "https://github.com/YadhirIsvan/visionin.git",
       title: "VisionInsight (ML + Streamlit)",
       description:
-        "App de análisis de datos médicos con Python y Streamlit, que predice la probabilidad de diabetes basada en variables clínicas."  
+        "App de análisis de datos médicos con Python y Streamlit, que predice la probabilidad de diabetes basada en variables clínicas."
     }
   ],
   display: true // Set false to hide this section, defaults to true
