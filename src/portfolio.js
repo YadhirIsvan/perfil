@@ -175,6 +175,7 @@ const workExperiences = {
     {
       role: "Fundador y Desarrollador Backend",
       company: "PallaresCorp",
+      url: "https://pallarescorp.com",
       companylogo: require("./assets/images/pallarescorpLogo.jpg"),
       date: "2023 – Actualidad",
       desc: "Inicié una empresa enfocada en el desarrollo de un sistema e-commerce adaptable a micro y pequeñas empresas, combinando tecnología con consultoría personalizada y marketing digital.",
@@ -183,6 +184,22 @@ const workExperiences = {
         "Implementé panel de administración para control de productos, ventas y clientes",
         "Ofrecimos campañas de marketing y acompañamiento a los negocios que adquirieron el sistema",
         "Lideré la estrategia comercial y técnica del proyecto"
+      ]
+    },
+    {
+      role: "Co-fundador y Desarrollador Backend",
+      company: "Autotronia",
+      url: "https://autotronia.com",
+      companylogo: require("./assets/images/AUTOTRONIA.png"),
+      date: "2024 – Actualidad",
+      desc: "Desarrollo y mantenimiento de Autotronia, una plataforma SaaS para talleres mecánicos y agencias de autos que gestiona clientes, inventario, órdenes de trabajo y citas de usuarios.",
+      descBullets: [
+        "Diseño e implementación del backend para gestión de personas, inventario y órdenes de trabajo (OT)",
+        "Sistema de asignación y delegación de tareas por empleado (mecánicos, asesores, administradores)",
+        "Módulo de cotización y costeo de servicios dentro de cada OT",
+        "Panel de usuario para agendar citas y seguir el progreso de la OT de su vehículo",
+        "Notificaciones automáticas incluyendo integración con WhatsApp y notificaciones internas",
+        "Enlace a la landing: autotronia.com"
       ]
     },
     {

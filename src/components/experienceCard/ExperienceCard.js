@@ -30,7 +30,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
       : null;
   };
 
-  return (
+  const CardInner = () => (
     <div className={isDark ? "experience-card-dark" : "experience-card"}>
       <div style={{background: rgb(colorArrays)}} className="experience-banner">
         <div className="experience-blurred_div"></div>
@@ -78,7 +78,22 @@ export default function ExperienceCard({cardInfo, isDark}) {
         <ul>
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
         </ul>
+        {cardInfo.url && (
+          <div className="experience-btn-container">
+            <a
+              href={cardInfo.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="experience-visit-btn"
+            >
+              Navegar al sitio
+            </a>
+          </div>
+        )}
       </div>
     </div>
   );
+
+  return <CardInner />;
+
 }
